@@ -34,6 +34,10 @@ public class MainActivity extends AppCompatActivity {
                         Intent intent1 = new Intent(mainActivity, MainActivity3.class);
                         startActivity(intent1);
                         break;
+                    case R.id.button3:
+                        Intent intent2 = new Intent(mainActivity, MainActivity4.class);
+                        startActivity(intent2);
+                        break;
                 }
 
             }
@@ -41,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         };
         button.setOnClickListener(onClickListener);
         button2.setOnClickListener(onClickListener);
-        //button3.setOnClickListener(onClickListener);
+        button3.setOnClickListener(onClickListener);
     }
 }
 
